@@ -31,15 +31,21 @@ The developed model for next word prediction on the metamorphosis dataset has ac
 
 To create a Deep Learning model for image classification, we can follow these steps:
 
-## Data preprocessing: Preprocess the given dataset to prepare it for training the model. This may include steps like resizing images to a uniform size, normalization, data augmentation, and splitting the data into training, validation, and test sets. I've separated the images into two folder which indicates the labelled dataset based on their name ending with 0 or 1
+## Data preprocessing: 
+Preprocess the given dataset to prepare it for training the model. This may include steps like resizing images to a uniform size, normalization, data augmentation, and splitting the data into training, validation, and test sets. I've separated the images into two folder which indicates the labelled dataset based on their name ending with 0 or 1
 
-## Choose a Deep Learning Neural Network: We can choose any Deep Learning neural network for this task, like Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), or their combinations like CNN-RNN models. CNNs are usually the go-to choice for image classification tasks because they have shown exceptional performance in various image classification tasks.
+## Choose a Deep Learning Neural Network: 
 
-## Training: Train the model using the preprocessed dataset. This involves choosing a suitable loss function, an optimizer, and a learning rate. During the training process, we feed the images into the model and adjust its weights based on the output of the loss function.
+We can choose any Deep Learning neural network for this task, like Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), or their combinations like CNN-RNN models. CNNs are usually the go-to choice for image classification tasks because they have shown exceptional performance in various image classification tasks.
 
-## Model evaluation: After training, we evaluate the model's performance on the validation dataset to check its accuracy and generalization. Based on the results, we can tweak the model parameters or choose a different neural network architecture.
+## Training: 
+Train the model using the preprocessed dataset. This involves choosing a suitable loss function, an optimizer, and a learning rate. During the training process, we feed the images into the model and adjust its weights based on the output of the loss function.
 
-## Testing: Finally, we test the model on the unseen test dataset to check its performance in real-world scenarios.
+## Model evaluation: 
+After training, we evaluate the model's performance on the validation dataset to check its accuracy and generalization. Based on the results, we can tweak the model parameters or choose a different neural network architecture.
+
+## Testing:
+Finally, we test the model on the unseen test dataset to check its performance in real-world scenarios.
 
 For this specific task, we need to build a binary classifier to distinguish between real and fake images. We can train the model on the provided dataset, which contains both real and photoshopped images. We can use any suitable neural network architecture for this task, like a simple CNN or a more complex architecture like ResNet. The goal is to achieve an accuracy of over 80% on the test dataset.
 
